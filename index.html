@@ -9,8 +9,14 @@
 
 </head>
 <body class="bg-success vh-100">
-    <div class="container d-flex justify-content-center mt-5">
-        <div class="card" style="width: 15rem; height: 21rem;">
+  <label for="widthInput">Width</label>
+  <input type="text" id="widthInput" placeholder="width">
+
+  <label for="heigthInput">Height</label>
+  <input type="text" id="heightInput" placeholder="height">
+
+    <div class="container d-flex justify-content-center mt-5 sm-12 xl-12">
+        <div class="card" id="card"style="width: 15rem; height: 21rem;">
             <div class="card-body flex-column">
               <h5 id="suitUp" class="card-title-up d-flex justify-content-start fs-2" style="margin-bottom: 5.5rem;">♠</h5>
               <p id="number" class="card-text d-flex justify-content-center fs-2 " style="margin-bottom: 6rem;">2</p>
@@ -18,6 +24,7 @@
             </div>
           </div>
     </div>
+    <div id="buttonContainer" class="sm-12 xl-12"></div>
    
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
